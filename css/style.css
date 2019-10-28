@@ -6,17 +6,17 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
-	margin: 0;
-	box-sizing: border-box;
+	margin-left: auto;
+	box-sizing: border-box; 5px solid-black
 }
 
 .container {
-	margin: 0 auto;
-	padding: 0 2rem;
+	margin-right: auto;
+	padding: 8em;
 }
 
 .clearfix {
-	clear: both;
+	clear: column;
 }
 
 /* create a responsive container */
