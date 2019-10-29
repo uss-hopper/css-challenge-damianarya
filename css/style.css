@@ -61,6 +61,141 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+/***
+global styles will affect entire page ( anything betewwen the body tags)
+ */
+body {
+	font-family: monospace, "Courier New"
+}
+
+section{
+	padding: 2.75rem 0;
+}
+
+/***
+heade styles
+ */
+
+header {
+	background-color: #333333;
+	color: lime;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+/***
+welcome styles
+ */
+
+img[alt="welcome to my home page"]{
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper{
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+}
+
+.instructions-content {
+	flex 1;
+	padding-right: 2rem;
+
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+/***
+about me styles
+ */
+
+section.about-me {
+	background-color: blue;
+	color : #fff:
+}
+
+section.about-me img {
+	width: 300;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+about-me p span {
+	color: yellow;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/***
+skill styles
+ */
+
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: lime;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	background-color: #333333;
+	padding: 10px;
+}
+
+/***
+contact form styles
+ */
+
+div.sfooter-content section:last-child {
+	background-color: #333333;
+}
 
 
+.form-wrapper{
+	background-color: darkseagreen;
+	color: lime;
+	padding 20px;
+}
 
+label{
+	display: block;
+	margin: 15px 0 5px 0;
+}
+
+/***
+input and text last section
+ */
+
+input, textarea {
+	padding: 8px;
+	width: 30%;
+}
+
+button {
+	background-color: lime;
+	font-weight: bold;
+	padding: 10px 30px;
+	fornt-size: 1rem
+	border: none
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
