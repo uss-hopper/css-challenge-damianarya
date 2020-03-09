@@ -117,7 +117,7 @@
 			</section>
 
 		</div><!--/.sfooter-content-->
-
+<!--this is an ungraded in class and homework assignment for playing with and learning css-->
 		<footer>
 			<div class="container">
 				<h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>

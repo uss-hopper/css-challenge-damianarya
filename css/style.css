@@ -62,7 +62,7 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 /***
-global styles will affect entire page ( anything betewwen the body tags)
+global styles will affect entire page ( anything between the body tags)
  */
 body {
 	font-family: monospace, "Courier New"
