@@ -115,7 +115,7 @@
 					</div>
 				</div>
 			</section>
-
+<!--this is for a commit-->
 		</div><!--/.sfooter-content-->
 <!--this is an ungraded in class and homework assignment for playing with and learning css-->
 		<footer>
